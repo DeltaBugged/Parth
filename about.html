@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pratham Mandal — Developer</title>
+<title>About — Pratham Mandal</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -22,7 +22,7 @@
 <nav id="nav">
   <a href="index.html" class="nav-logo">PM<span>.</span></a>
   <ul class="nav-links">
-    <li><a href="about.html">About</a></li>
+    <li><a href="about.html" class="active">About</a></li>
     <li><a href="services.html">Services</a></li>
     <li><a href="journey.html">Journey</a></li>
     <li><a href="contact.html">Contact</a></li>
@@ -42,36 +42,60 @@
   <a href="contact.html" class="menu-link" style="color:var(--cyan)">Hire Me</a>
 </div>
 
-<section id="hero">
-  <div class="hero-inner">
-    <div class="hero-eyebrow">Open to new projects · Jamshedpur, India</div>
-    <h1 class="hero-name">
-      <span class="line">I'm</span>
-      <span class="line"><span class="accent" data-text="Pratham">Pratham</span></span>
-      <span class="line">Mandal</span>
-    </h1>
-    <p class="hero-subtitle">
-      I build <strong>bots, web apps, and tools</strong> that actually work. Python, JavaScript, and whatever it takes — shipped across <strong>130+ projects</strong> in 2 years.
-    </p>
-    <div class="hero-actions">
-      <a href="contact.html" class="btn-primary">
-        Get in Touch
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
-      </a>
+<section id="about" class="page-section">
+  <div class="page-header reveal">
+    <div class="section-eyebrow">About me</div>
+    <h1 class="section-title">Code first,<br>ship fast</h1>
+  </div>
+  <div class="about-grid">
+    <div class="about-visual reveal">
+      <div class="about-frame-accent2"></div>
+      <div class="about-frame">
+        <div class="about-frame-inner">PM</div>
+      </div>
+      <div class="about-frame-accent"></div>
+      <div class="about-badge">
+        <div class="about-badge-num">2</div>
+        <div class="about-badge-text">Years exp.</div>
+      </div>
     </div>
-  </div>
-  <div class="hero-scroll">
-    <div class="scroll-line"></div>
-    Scroll
-  </div>
-  <div class="hero-counter">
-    <div class="hero-counter-num">130<span>+</span></div>
-    <div class="hero-counter-label">Projects shipped</div>
+    <div class="reveal reveal-delay-1">
+      <div class="about-text">
+        <p>I'm <strong>Pratham Mandal</strong>, a self-driven developer from <strong>Jamshedpur, India</strong> who's been coding for 2 years and has already shipped over 130 projects.</p>
+        <p>I started with Python and never stopped. Today I build <strong>Telegram bots, full-stack web apps, Discord bots, and automation tools</strong> — whatever solves the problem cleanly.</p>
+        <p>All my projects are <strong>private by default</strong> — I work under NDA and client confidentiality. Results speak through metrics, not screenshots.</p>
+      </div>
+      <div class="about-skills">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">HTML/CSS</span>
+        <span class="skill-tag">Telegram API</span>
+        <span class="skill-tag">Discord.py</span>
+        <span class="skill-tag">Node.js</span>
+        <span class="skill-tag">Flask</span>
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">REST APIs</span>
+      </div>
+      <div class="about-meta">
+        <div class="meta-item">
+          <div class="meta-num">130<sup>+</sup></div>
+          <div class="meta-label">Projects</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-num">50<sup>+</sup></div>
+          <div class="meta-label">Clients</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-num">2<sup>yr</sup></div>
+          <div class="meta-label">Experience</div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
 <div class="glass-dock">
-  <a href="about.html" class="dock-btn">
+  <a href="about.html" class="dock-btn active">
     <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
     <span>About</span>
   </a>

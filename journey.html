@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Journey — Pratham Mandal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<canvas id="bg"></canvas>
+<div class="grid-overlay"></div>
+<div class="scanlines"></div>
+<div class="vignette"></div>
+<div class="noise"></div>
+
+<nav id="nav">
+  <a href="index.html" class="nav-logo">PM<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="journey.html" class="active">Journey</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="contact.html" class="nav-cta">Hire Me</a>
+  <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-menu-close" id="menuClose">✕</button>
+  <a href="about.html" class="menu-link">About</a>
+  <a href="services.html" class="menu-link">Services</a>
+  <a href="journey.html" class="menu-link">Journey</a>
+  <a href="contact.html" class="menu-link">Contact</a>
+  <a href="contact.html" class="menu-link" style="color:var(--cyan)">Hire Me</a>
+</div>
+
+<section id="timeline" class="page-section">
+  <div class="page-header reveal">
+    <div class="section-eyebrow">Journey</div>
+    <h1 class="section-title">How I got here</h1>
+  </div>
+  <div class="timeline-inner">
+
+    <div class="timeline-item reveal">
+      <div class="timeline-date">2026 — Now</div>
+      <div class="timeline-line"></div>
+      <div class="timeline-content">
+        <div class="timeline-role">Freelance Developer</div>
+        <div class="timeline-company">Independent · Jamshedpur</div>
+        <div class="timeline-desc">Working with 50+ clients globally on bots, web apps, and automation. Every project is private — results delivered under full confidentiality. Averaging 5+ deliveries per month.</div>
+        <div class="timeline-tags">
+          <span class="timeline-tag">Telegram Bots</span>
+          <span class="timeline-tag">Web Apps</span>
+          <span class="timeline-tag">Automation</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item reveal reveal-delay-1">
+      <div class="timeline-date">2025</div>
+      <div class="timeline-line"></div>
+      <div class="timeline-content">
+        <div class="timeline-role">First 50 Projects</div>
+        <div class="timeline-company">Self-taught grind</div>
+        <div class="timeline-desc">Went deep on Python, Telegram Bot API, and Discord.py. Built everything from simple bots to multi-user systems with databases. Learned by shipping, not studying.</div>
+        <div class="timeline-tags">
+          <span class="timeline-tag">Python</span>
+          <span class="timeline-tag">Discord.py</span>
+          <span class="timeline-tag">Pyrogram</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item reveal reveal-delay-2">
+      <div class="timeline-date">2024</div>
+      <div class="timeline-line"></div>
+      <div class="timeline-content">
+        <div class="timeline-role">Started Coding</div>
+        <div class="timeline-company">Day one</div>
+        <div class="timeline-desc">Picked up Python with zero background. Within months was building functional scripts and small bots. The foundation that everything else is built on.</div>
+        <div class="timeline-tags">
+          <span class="timeline-tag">Python</span>
+          <span class="timeline-tag">HTML</span>
+          <span class="timeline-tag">JavaScript</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="glass-dock">
+  <a href="about.html" class="dock-btn">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+    <span>About</span>
+  </a>
+  <a href="services.html" class="dock-btn">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+    <span>Services</span>
+  </a>
+  <a href="journey.html" class="dock-btn active">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+    <span>Journey</span>
+  </a>
+</div>
+
+<footer>
+  <div class="footer-text">© 2026 Pratham Mandal · Jamshedpur, India</div>
+  <div class="footer-status">
+    <div class="status-dot"></div>
+    Available for work
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
